@@ -5,6 +5,7 @@ export default function Profile(){
         username: "esports123",
         email: "iLoveEsports123@gmail.com"
     };
+    //design
     return (
         <>
         <DisplayData data={profileData}/>
