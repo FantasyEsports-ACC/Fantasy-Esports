@@ -32,10 +32,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <UserProvider>
-        <NavBar />
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
+          <NavBar />
           {children}
         </body>
       </UserProvider>
